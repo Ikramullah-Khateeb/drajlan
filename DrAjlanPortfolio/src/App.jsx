@@ -1,4 +1,6 @@
 import About from "./Components/About"
+import Experience from "./Components/Experience"
+import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 
 
@@ -9,6 +11,8 @@ function App() {
     <>
    <Header />
    <About />
+   <Experience />
+   <Footer />
 
     </>
   )
