@@ -44,8 +44,7 @@ export default function BrandSlider() {
                 <img
                   src={logo}
                   alt="Brand"
-                  className="h-16 md:h-20 object-contain
-                             opacity-80 grayscale
+                  className="h-16 md:h-20 object-contai
                              hover:opacity-100 hover:grayscale-0
                              transition-all duration-300"
                 />
