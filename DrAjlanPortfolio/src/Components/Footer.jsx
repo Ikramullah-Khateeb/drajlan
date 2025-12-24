@@ -97,7 +97,8 @@ export default function DrAlZakiFooter() {
       viewport={{ once: false, amount: 0.25 }}
       variants={container}
     >
-      <div className="max-w-full mx-auto px-12 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
 
         {/* Top Grid */}
         <motion.div
@@ -115,7 +116,7 @@ export default function DrAlZakiFooter() {
               </motion.div>
             </div>
 
-            <p className="text-sm text-gray-400 mb-6 leading-relaxed">
+            <p className="text-sm text-gray-400 leading-relaxed mb-6">
               Physician Scientist specializing in CAR-T Cell Immunotherapy &
               Hematology Oncology, advancing patient-centered care.
             </p>
@@ -136,7 +137,7 @@ export default function DrAlZakiFooter() {
           {/* Columns */}
           {[services, quickLinks, expertise].map((col, i) => (
             <motion.div key={i} variants={fadeUp}>
-              <h3 className="text-xs font-bold uppercase tracking-wider  text-blue-600 underline ">
+              <h3 className="mb-4 text-xs font-bold uppercase tracking-wider text-blue-600 underline">
                 {i === 0 ? "SPECIALIZATIONS" : i === 1 ? "QUICK LINKS" : "AFFILIATIONS"}
               </h3>
 

@@ -89,11 +89,11 @@ export default function Experience() {
             transition={{ duration: 0.7, ease: "easeOut" }}
             className="mb-10 sm:mb-14"
           >
-            <h1 className="text-5xl sm:text-5xl md:text-5xl lg:text-5xl font-bold text-blue-700 mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-700 mb-6">
               Experience
             </h1>
 
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed max-w-3xl">
+            <p className="text-base sm:text-lg leading-relaxed text-gray-700 max-w-3xl">
               A career spanning advanced medical training, academic instruction,
               and senior clinical leadership, with sustained contributions to{" "}
               <span className="font-semibold text-blue-700">
@@ -101,6 +101,7 @@ export default function Experience() {
               </span>{" "}
               across leading global healthcare institutions.
             </p>
+
           </motion.div>
 
           {/* Experience Grid */}
@@ -128,15 +129,16 @@ export default function Experience() {
                 }}
                 className="relative space-y-3"
               >
-                <h3 className="text-base sm:text-lg font-bold text-gray-900">
+                <h3 className="text-sm sm:text-base font-semibold text-gray-900">
                   {item.year}
                 </h3>
 
                 <div className="space-y-1">
-                  <p className="text-gray-900 font-semibold text-sm sm:text-base">
+                  <p className="text-base sm:text-lg font-semibold text-gray-900">
                     {item.company}
                   </p>
-                  <p className="text-gray-600 text-sm italic">
+
+                  <p className="text-sm sm:text-base italic text-gray-600">
                     {item.position}
                   </p>
                 </div>
@@ -145,7 +147,7 @@ export default function Experience() {
                   href={`https://${item.link}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block text-blue-700 text-sm font-semibold"
+                  className="inline-block text-sm font-semibold text-blue-700"
                   whileHover={{
                     x: 6,
                     transition: {
